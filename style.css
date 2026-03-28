@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #F7F9FC;
+    color: #0A2540;
+}
+
+header {
+    padding: 20px 40px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #0A2540;
+    font-weight: 500;
+}
+
+nav a.active {
+    color: #1A73E8;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.cta {
+    background: #1A73E8;
+    padding: 12px 28px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.05);
+}
+
+.content {
+    padding: 60px;
+}
+
+.service-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    background: #1A73E8;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
